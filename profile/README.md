@@ -1,24 +1,25 @@
 # 📘 CampusDiscipline Hub – Smart Discipline Management System  
-
+https://github.com/Campus-Discipline-Hub/.github/edit/main/README.md
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Repo Size](https://img.shields.io/github/repo-size/ARUNAGIRINATHAN-K/Discipline-Management-System)
-![Contributors](https://img.shields.io/github/contributors/ARUNAGIRINATHAN-K/Discipline-Management-System)
-![Forks](https://img.shields.io/github/forks/ARUNAGIRINATHAN-K/Discipline-Management-System?style=social)
-![Stars](https://img.shields.io/github/stars/ARUNAGIRINATHAN-K/Discipline-Management-Systemstyle=social)
-![Pull Requests](https://img.shields.io/github/issues-pr/ARUNAGIRINATHAN-K/Discipline-Management-System)
-![Last Commit](https://img.shields.io/github/last-commit/ARUNAGIRINATHAN-K/Discipline-Management-System)
+![Repo Size](https://img.shields.io/github/repo-size/Campus-Discipline-Hub/Discipline-Management-System)
+![Contributors](https://img.shields.io/github/contributors/Campus-Discipline-Hub/Discipline-Management-System)
+![Forks](https://img.shields.io/github/forks/Campus-Discipline-Hub/Discipline-Management-System?style=social)
+![Stars](https://img.shields.io/github/stars/Campus-Discipline-Hub/Discipline-Management-System?style=social)
+![Pull Requests](https://img.shields.io/github/issues-pr/Campus-Discipline-Hub/Discipline-Management-System)
+![Last Commit](https://img.shields.io/github/last-commit/Campus-Discipline-Hub/Discipline-Management-System)
 ![HTML5](https://img.shields.io/badge/Frontend-HTML5-orange?logo=html5)
 ![CSS3](https://img.shields.io/badge/Frontend-CSS3-blue?logo=css3)
 ![JavaScript](https://img.shields.io/badge/Frontend-JavaScript-yellow?logo=javascript)
 ![Chart.js](https://img.shields.io/badge/Analytics-Chart.js-pink?logo=chartdotjs)
 ![XAMPP](https://img.shields.io/badge/Backend-XAMPP-F37623?logo=xampp&logoColor=white)
 
+
 ## 👥 Contributors
 Thanks goes to these wonderful people:
 
-<a href="https://github.com/ARUNAGIRINATHAN-K/Discipline-Management-System/graphs/contributors">
+<a href="https://github.com/Campus-Discipline-Hub/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ARUNAGIRINATHAN-K/Discipline-Management-Systemo" />
 </a>
 
