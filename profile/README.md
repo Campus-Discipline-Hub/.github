@@ -72,24 +72,3 @@ This project provides a structured, digital workflow to handle common discipline
 ✔ Time-saving digital workflow  
 ✔ Enables long-term analytics  
 ✔ Reduces manual errors  
-
-## 🏗️ System Hierarchy  
-
-**Admin → Senior Staff → Department In-charge → Mentor/Advisor → Students**  
-
-## 📊 Workflow (Mermaid Diagram)
-
-```mermaid
-flowchart TD
-    P[Principal/Admin] --> D[Senior Staff]
-    D --> H[Dept. Head]
-    H --> DH[Discipline Admin]
-    DH --> YI[Year/Dept. In-charge]
-    YI --> M[Mentor / Advisor]
-    M --> S[Student]
-
-    %% Escalation Paths
-    S -->|Case Reported| YI
-    YI -->|Escalation| DH
-    DH -->|Critical Case| P
-```
