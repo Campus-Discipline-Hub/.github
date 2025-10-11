@@ -59,13 +59,6 @@ This project provides a structured, digital workflow to handle common discipline
 - Others may have view-only or limited access  
 - Admins manage high-alert cases  
 
-## 💻 Tech Stack  
-
-- **Frontend**: HTML5, CSS3, JavaScript  
-- **Data Storage**: LocalStorage (planned: SQLite/MySQL)  
-- **Analytics**: Chart.js  
-- **Future**: Flask/Node.js backend, ERP integration, Mobile App
-- 
 ## ✨ Benefits  
 ✔ Transparent record of actions  
 ✔ Escalation rules for repeated misconduct  
