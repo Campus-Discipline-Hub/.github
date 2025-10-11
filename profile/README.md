@@ -15,7 +15,6 @@
 ![Chart.js](https://img.shields.io/badge/Analytics-Chart.js-pink?logo=chartdotjs)
 ![XAMPP](https://img.shields.io/badge/Backend-XAMPP-F37623?logo=xampp&logoColor=white)
 
-
 ## 👥 Contributors
 
 <a href="https://github.com/Campus-Discipline-Hub/Discipline-Management-System/graphs/contributors">
@@ -23,98 +22,74 @@
 </a>
 
 ## 📌 Project Overview  
-The **Discipline Management System** is a digital solution designed for **colleges and institutions** to monitor, record, and analyze student discipline activities.  
-It ensures a **transparent workflow** between Mentors, Advisors, Year In-charge, Department Discipline In-charge, HODs, Dean, Principal, and the **Overall Discipline Head**.  
-
----
+**CampusDiscipline Hub** is a digital solution for educational institutions to monitor, record, and analyze discipline-related activities.  
+The system supports a transparent workflow across multiple roles (Mentors, Advisors, Department In-charges, Senior Staff, and Admin).  
 
 ## 📖 Introduction  
-**CampusDiscipline Hub** is a centralized **Discipline Management System** designed for colleges.  
-It provides a **transparent, structured, and digital workflow** to handle both **normal discipline issues** and **high-alert cases**, ensuring accountability and efficiency across different roles (Faculty, Mentors, HODs, Dean, Principal, Discipline Head).  
-
----
+This project provides a structured, digital workflow to handle common discipline matters and high-alert cases, ensuring accountability and efficiency for all stakeholders.  
 
 ## 🎯 Objectives  
-- Maintain a **structured digital record** of discipline cases  
-- Provide **transparent access** to stakeholders based on hierarchy  
-- Escalate repeated misconduct cases with **clear workflows**  
-- Minimize **manual paperwork & errors**  
-- Enable **data-driven insights** into student behavior patterns  
-
----
+- Maintain structured digital records of discipline cases  
+- Provide transparent access and escalation based on user roles  
+- Minimize manual paperwork and errors  
+- Enable data-driven insights into behavioral patterns  
 
 ## ⚡ Key Features  
 ### Normal Issues  
-- Report entry by **Year/Department In-charge**  
-- Accessible by **Mentor, Advisor, HOD, Dean, Principal, Discipline Head**  
-- Case closure only by **Year/Department In-charge** (post verification)  
-- Letter upload & approval process for resolution  
+- Report entry by designated staff  
+- Accessible to relevant stakeholders based on hierarchy  
+- Case closure through proper verification  
+- Letter upload and approval process  
 
 ### High Alert Issues  
-- Direct entry by **Discipline Head**  
-- Full authority to **view/add/download**  
-- Senior management (HOD, Dean, Principal) can **view/download only**  
-- Mentors/Advisors/In-charges have **view-only** access  
-
----
+- Direct entry by authorized personnel  
+- Administrative authority for full access  
+- Senior staff can view/download only  
+- Basic users have view-only access  
 
 ## 🗂 Data Management  
 
-### **Base Table Fields**  
-- `Reg No`, `Name`, `Year`, `Dept`  
-- `Entry Date`, `Reason`, `Status`, `Close Date`  
-- `Occurrence`, `Mentor`, `Advisor`  
+### Base Table Fields (Generic)  
+- Registration Number, Name, Year, Department  
+- Entry Date, Reason, Status, Close Date  
+- Occurrence, Mentor, Advisor  
 
-### **Access Control**  
-- **DDI/YI** → File upload, action taken  
-- **Mentor/Advisor** → View only  
-- **Discipline Head** → Full authority on critical cases  
-
----
+### Access Control  
+- Specific roles can upload files and take actions  
+- Others may have view-only or limited access  
+- Admins manage high-alert cases  
 
 ## 💻 Tech Stack  
 
-- **Frontend** → HTML5, CSS3, JavaScript  
-- **Data Storage** → LocalStorage (Future: SQLite/MySQL)  
-- **Analytics** → Chart.js  
-- **Future Expansion** → Flask/Node.js backend, ERP integration, Mobile App  
-
----
-
+- **Frontend**: HTML5, CSS3, JavaScript  
+- **Data Storage**: LocalStorage (planned: SQLite/MySQL)  
+- **Analytics**: Chart.js  
+- **Future**: Flask/Node.js backend, ERP integration, Mobile App
+- 
 ## ✨ Benefits  
-✔ Transparent record of discipline actions  
-✔ Prevents repeated misconduct with escalation rules  
-✔ Saves time with structured digital workflow  
-✔ Enables long-term data analysis  
-✔ Reduces paper usage & manual errors  
-
----
-
-## 🚀 Future Scope  
-📩 **Parent Notification System** (SMS/Email)  
-📱 **Mobile App version**  
-🤖 **AI/ML-based discipline pattern prediction**  
-🔗 **ERP/Cloud integration**  
-
----
+✔ Transparent record of actions  
+✔ Escalation rules for repeated misconduct  
+✔ Time-saving digital workflow  
+✔ Enables long-term analytics  
+✔ Reduces manual errors  
 
 ## 🏗️ System Hierarchy  
 
-**Principal → Dean → HOD → Discipline Head → Year In-charge / Department In-charge → Student Mentor/Advisor → Students**  
+**Admin → Senior Staff → Department In-charge → Mentor/Advisor → Students**  
 
 ## 📊 Workflow (Mermaid Diagram)
 
 ```mermaid
 flowchart TD
-    P[👨‍🏫 Principal] --> D[📘 Dean]
-    D --> H[🏛 HOD]
-    H --> DH[⚖ Discipline Head]
-    DH --> YI[📂 Year In-charge / Dept In-charge]
-    YI --> M[👨‍💼 Mentor / Advisor]
-    M --> S[🎓 Student]
+    P[Principal/Admin] --> D[Senior Staff]
+    D --> H[Dept. Head]
+    H --> DH[Discipline Admin]
+    DH --> YI[Year/Dept. In-charge]
+    YI --> M[Mentor / Advisor]
+    M --> S[Student]
 
     %% Escalation Paths
-    S -->|Misconduct Case| YI
+    S -->|Case Reported| YI
     YI -->|Escalation| DH
     DH -->|Critical Case| P
-
+```
