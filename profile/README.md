@@ -17,7 +17,6 @@
 
 
 ## 👥 Contributors
-Thanks goes to these wonderful people:
 
 <a href="https://github.com/Campus-Discipline-Hub/Discipline-Management-System/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Campus-Discipline-Hub/Discipline-Management-System" />
