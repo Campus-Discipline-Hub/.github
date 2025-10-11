@@ -1,5 +1,5 @@
 # 📘 CampusDiscipline Hub – Smart Discipline Management System  
-https://github.com/Campus-Discipline-Hub/.github/edit/main/README.md
+
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -19,10 +19,9 @@ https://github.com/Campus-Discipline-Hub/.github/edit/main/README.md
 ## 👥 Contributors
 Thanks goes to these wonderful people:
 
-<a href="https://github.com/Campus-Discipline-Hub/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ARUNAGIRINATHAN-K/Discipline-Management-Systemo" />
+<a href="https://github.com/Campus-Discipline-Hub/Discipline-Management-System/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Campus-Discipline-Hub/Discipline-Management-System" />
 </a>
-
 
 ## 📌 Project Overview  
 The **Discipline Management System** is a digital solution designed for **colleges and institutions** to monitor, record, and analyze student discipline activities.  
